@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #1f3a5f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 16px;
+}
+
+/* Main content */
+main {
+    padding: 20px 40px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #1f3a5f;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-indent: 30px;
+}
+
+/* Images */
+img {
+    width: 300px;
+    border: 2px solid #999;
+    margin-top: 15px;
+    display: block;
+}
+
+/* List with picture marker */
+ul {
+    list-style-image: url("IMAGE_MARKER_LINK_FROM_SPECIFICATION");
+    margin-left: 40px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Paragraph before footer */
+.bordered-text {
+    border-top: 3px solid #1f3a5f;
+    border-bottom: 3px solid #1f3a5f;
+    padding: 15px;
+    margin: 30px 0;
+    text-align: center;
+    text-indent: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #1f3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
